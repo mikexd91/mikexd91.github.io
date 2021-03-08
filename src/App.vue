@@ -6,7 +6,7 @@
       id="sideNav"
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Mikeyyyyy Zhang Xunda</span>
+        <span class="d-block d-lg-none">Mike Zhang Xunda</span>
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -74,9 +74,9 @@
             also involved in various prototyping and MVP project development. He
             has experience in project management conducted in an agile practice
             and is always looking to expand his technical knowledge. Currently a
-            certified AWS Certified Solution Architect and certified Kubernetes
-            Application Developer (CKAD), he's looking to certify himself in GCP
-            in the near future.
+            certified AWS Certified Solution Architect and Google Cloud
+            Professional Solution Architect as well as certified Kubernetes
+            Application Developer (CKAD).
           </p>
           <div class="social-icons">
             <a
@@ -101,6 +101,35 @@
       <section class="resume-section" id="experience">
         <div class="resume-section-content">
           <h2 class="mb-5">Experience</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Innovation Engineering Lead</h3>
+              <div class="subheading mb-3">UST Global</div>
+              <p style=" font-style: italic;">
+                Focus Area: Cloud | Frontend | Microservice | APIs | DevOps
+              </p>
+              <p style=" font-weight: bold; color:black; ">
+                Internal Assets: Full Stack Development
+              </p>
+              <ul>
+                <li>
+                  Develop assets for internal and external project usage, which
+                  includes API portal using kubernetes and Kong API Gateway
+                </li>
+                <li>
+                  Develop frontend API catalogue page using React + Gastby SPA
+                </li>
+                <li style=" font-style: italic;">
+                  AWS Cloud + Kubernetes+ Kong API Gateway + React + Gastby
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Nov 2020 - Present</span>
+            </div>
+          </div>
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -170,56 +199,9 @@
               </ul>
             </div>
             <div class="flex-shrink-0">
-              <span class="text-primary">July 2018 - Present</span>
+              <span class="text-primary">July 2018 - Oct 2020</span>
             </div>
           </div>
-          <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>-->
         </div>
       </section>
       <hr class="m-0" />
@@ -380,6 +362,12 @@
                 <i class="fas fa-trophy text-warning"></i>
               </span>
               AWS Solution Architect Certification (Associate)
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-trophy text-warning"></i>
+              </span>
+              Google Cloud Solution Architect Certification (Professional)
             </li>
             <li>
               <span class="fa-li">
