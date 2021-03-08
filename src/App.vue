@@ -1,9 +1,12 @@
 <template>
   <div class="main-wrapper">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Mike Zhang Xunda</span>
+        <span class="d-block d-lg-none">Mikey Zhang Xunda</span>
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -29,16 +32,22 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experience</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Education</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interests</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
@@ -57,18 +66,31 @@
           </h1>
           <div class="subheading mb-5">
             Full Stack Developer · (65) 8688-0327 ·
-            <a
-              href="mailto:mike.xunda@gmail.com"
-            >mike.xunda@gmail.com</a>
+            <a href="mailto:mike.xunda@gmail.com">mike.xunda@gmail.com</a>
           </div>
-          <p
-            class="lead mb-5"
-          >Mike is a full stack developer and has developed multiple E2E full-stack solutions across industries on a global scale. He was also involved in various prototyping and MVP project development. He has experience in project management conducted in an agile practice and is always looking to expand his technical knowledge. Currently a certified AWS Certified Solution Architect and certified Kubernetes Application Developer (CKAD), he's looking to certify himself in GCP in the near future.</p>
+          <p class="lead mb-5">
+            Mike is a full stack developer and has developed multiple E2E
+            full-stack solutions across industries on a global scale. He was
+            also involved in various prototyping and MVP project development. He
+            has experience in project management conducted in an agile practice
+            and is always looking to expand his technical knowledge. Currently a
+            certified AWS Certified Solution Architect and certified Kubernetes
+            Application Developer (CKAD), he's looking to certify himself in GCP
+            in the near future.
+          </p>
           <div class="social-icons">
-            <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/mikexd/">
+            <a
+              class="social-icon"
+              target="_blank"
+              href="https://www.linkedin.com/in/mikexd/"
+            >
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a class="social-icon" target="_blank" href="https://resume.io/r/KWlmapL2N">
+            <a
+              class="social-icon"
+              target="_blank"
+              href="https://resume.io/r/KWlmapL2N"
+            >
               <i class="far fa-file"></i>
             </a>
           </div>
@@ -79,46 +101,71 @@
       <section class="resume-section" id="experience">
         <div class="resume-section-content">
           <h2 class="mb-5">Experience</h2>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
             <div class="flex-grow-1">
               <h3 class="mb-0">Digital Business Integration Analyst</h3>
               <div class="subheading mb-3">Accenture</div>
-              <p
-                style=" font-style: italic;"
-              >Focus Area: Cloud | Frontend | Microservice | APIs | DevOps</p>
-              <p
-                style=" font-weight: bold; color:black; "
-              >Internal Assets: Full Stack Development + UI/UX Design</p>
+              <p style=" font-style: italic;">
+                Focus Area: Cloud | Frontend | Microservice | APIs | DevOps
+              </p>
+              <p style=" font-weight: bold; color:black; ">
+                Internal Assets: Full Stack Development + UI/UX Design
+              </p>
               <ul>
-                <li>Develop assets for internal and external project usage, which includes API portal with reusable building blocks and CI/CD devOps pipeline that can deploy multiple tech-stacks in all the major cloud platforms (AWS, GCP, Azure)</li>
-                <li style=" font-style: italic;">AWS Cloud + Azure DevOps + React + Serverless</li>
+                <li>
+                  Develop assets for internal and external project usage, which
+                  includes API portal with reusable building blocks and CI/CD
+                  devOps pipeline that can deploy multiple tech-stacks in all
+                  the major cloud platforms (AWS, GCP, Azure)
+                </li>
+                <li style=" font-style: italic;">
+                  AWS Cloud + Azure DevOps + React + Serverless
+                </li>
               </ul>
 
-              <p
-                style=" font-weight: bold; color:black; "
-              >F&B Industry: Full Stack Development + UI/UX Design</p>
+              <p style=" font-weight: bold; color:black; ">
+                F&B Industry: Full Stack Development + UI/UX Design
+              </p>
               <ul>
-                <li>Design and built an end to end consumer, staff and management' data visualization dashboard application that is integrated with the restaurant's hardware beverage dispensing system.</li>
+                <li>
+                  Design and built an end to end consumer, staff and management'
+                  data visualization dashboard application that is integrated
+                  with the restaurant's hardware beverage dispensing system.
+                </li>
                 <li>React Native + React + NodeJS + Express</li>
-                <li
-                  style=" font-style: italic;"
-                >Project received internal Product Creating Tomorrow award</li>
+                <li style=" font-style: italic;">
+                  Project received internal Product Creating Tomorrow award
+                </li>
               </ul>
 
-              <p
-                style=" font-weight: bold; color:black; "
-              >Pharmaceutical Industry: Micro-frontend Development</p>
+              <p style=" font-weight: bold; color:black; ">
+                Pharmaceutical Industry: Micro-frontend Development
+              </p>
               <ul>
-                <li>Built an end to end request management system and drag and drop visual form builder that is slated for multi-tenant cloud platform. Front-end is developed using microfrontend technology that is highly decoupled and scalable.</li>
+                <li>
+                  Built an end to end request management system and drag and
+                  drop visual form builder that is slated for multi-tenant cloud
+                  platform. Front-end is developed using microfrontend
+                  technology that is highly decoupled and scalable.
+                </li>
                 <li style=" font-style: italic;">AWS Cloud + Angular</li>
               </ul>
 
-              <p
-                style=" font-weight: bold; color:black; "
-              >Pharmaceutical Industry: DevOps + Microservice Development</p>
+              <p style=" font-weight: bold; color:black; ">
+                Pharmaceutical Industry: DevOps + Microservice Development
+              </p>
               <ul>
-                <li>Set up the Distributed Tracing in the Kubernetes cluster, to increase observability, enable traffic management and visualization.</li>
-                <li>Develop microservice to harmonise data from multiple data sources and output a configurable set of metadata</li>
+                <li>
+                  Set up the Distributed Tracing in the Kubernetes cluster, to
+                  increase observability, enable traffic management and
+                  visualization.
+                </li>
+                <li>
+                  Develop microservice to harmonise data from multiple data
+                  sources and output a configurable set of metadata
+                </li>
                 <li style=" font-style: italic;">GCP + Kubernetes</li>
               </ul>
             </div>
@@ -180,7 +227,9 @@
       <section class="resume-section" id="education">
         <div class="resume-section-content">
           <h2 class="mb-5">Education</h2>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
             <div class="flex-grow-1">
               <h3 class="mb-0">National University of Singapore</h3>
               <div class="subheading mb-3">Bachelor of Computing</div>
@@ -301,14 +350,16 @@
         <div class="resume-section-content">
           <h2 class="mb-5">Interests</h2>
           <p>
-            Apart from being a developer, I also enjoy my time being
-            outdoors. I enjoy playing basketball, swimming and occasionally diving.
+            Apart from being a developer, I also enjoy my time being outdoors. I
+            enjoy playing basketball, swimming and occasionally diving.
           </p>
           <p class="mb-0">
-            When indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am also into finance and investment, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements and exploring more investment opportunities. Recently I am dapping into the world of crypto and blockchain, it's a whole new world out there!
+            When indoors, I follow a number of sci-fi and fantasy genre movies
+            and television shows, I am also into finance and investment, and I
+            spend a large amount of my free time exploring the latest technology
+            advancements and exploring more investment opportunities. Recently I
+            am dapping into the world of crypto and blockchain, it's a whole new
+            world out there!
           </p>
         </div>
       </section>
