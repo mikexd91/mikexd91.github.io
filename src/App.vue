@@ -1,3 +1,7 @@
+/* eslint-disable max-len */
+/* eslint-disable consistent-return */
+/* eslint-disable consistent-return */
+/* eslint-disable consistent-return */
 <template>
   <div class="main-wrapper">
     <!-- Navigation-->
@@ -65,18 +69,13 @@
             Zhang Xunda
           </h1>
           <div class="subheading mb-5">
-            Full Stack Developer · (65) 8688-0327 ·
-            <a href="mailto:mike.xunda@gmail.com">mike.xunda@gmail.com</a>
+            Software Engineer · (65) 8688-0327 ·
+            <a href="mailto:mike.xunda@gmail.com">mikexd.dev@gmail.com</a>
           </div>
           <p class="lead mb-5">
-            Mike is a full stack developer and has developed multiple E2E
-            full-stack solutions across industries on a global scale. He was
-            also involved in various prototyping and MVP project development. He
-            has experience in project management conducted in an agile practice
-            and is always looking to expand his technical knowledge. Currently a
-            certified AWS Certified Solution Architect and Google Cloud
-            Professional Solution Architect as well as certified Kubernetes
-            Application Developer (CKAD).
+            Mike is a full stack software engineer and has developed multiple E2E full-stack solutions across industries on a global scale. He was also involved in various prototyping and MVP project development. He has experience in project management conducted in an agile practice and is always looking to expand his technical knowledge.
+            <br/> <br/>
+            Currently a certified AWS Certified Solution Architect and Google Cloud Professional Solution Architect as well as certified Kubernetes Application Developer (CKAD). He has also taken on an interest in blockchain technology and is a Certified Blockchain Solution Architect (CBSA)
           </p>
           <div class="social-icons">
             <a
@@ -105,6 +104,49 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
+              <h3 class="mb-0">Cloud Engineering Manager</h3>
+              <div class="subheading mb-3">Temus (Temasek + UST Joint Venture)</div>
+              <p style=" font-style: italic;">
+                Focus Area: Cloud | Frontend | Microservice | APIs | DevOps
+              </p>
+              <p style=" font-weight: bold; color:black; ">
+                Healthcare & Travel: Lead Engineer & Solution Architect
+              </p>
+              <ul>
+                <li>
+                  Work with engineering teams to explore and create new design/architectures geared towards massive scale and performance
+                </li>
+                <li>
+                  Participate in code and design reviews to maintain our high development standards
+                </li>
+                <li>
+                  Engage in service capacity and demand planning, software performance analysis, tuning, and optimization
+                </li>
+                <li>
+                  Collaborate with product and experience teams to define and prototype feature specifications
+                </li>
+                <li>
+                  Develop frontend API catalogue page using React + Gastby SPA
+                </li>
+                <li>
+                  Work closely with infrastructure team in building and scaling back-end services as well as performing root cause analysis investigations
+                </li>
+                <li>
+                  Develop Covid Passport Solution that enables custom and airlines to verify identities of the travelers, validity of Covid Test and Vaccination Certificate and the entry. requirements rules.
+                </li>
+                <li style=" font-style: italic;">
+                  AWS Cloud + Kubernetes + React + NodeJS + Typescript
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Nov 2020 - Present</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
               <h3 class="mb-0">Innovation Engineering Lead</h3>
               <div class="subheading mb-3">UST Global</div>
               <p style=" font-style: italic;">
@@ -114,6 +156,15 @@
                 Internal Assets: Full Stack Development
               </p>
               <ul>
+                <li>
+                  Work closely with various stakeholders to understand and define the scope of the demo, and be creative, to create these tech demos to illustrate the desired business use case
+                </li>
+                <li>
+                  Propose, design, and implement demos and prototypes that solves business problems
+                </li>
+                <li>
+                  Using agile methodologies and working closely with the other lines of business and technology practices, to create new demos to bring to life tech concepts
+                  </li>
                 <li>
                   Develop assets for internal and external project usage, which
                   includes API portal using kubernetes and Kong API Gateway
@@ -375,6 +426,12 @@
               </span>
               Kubernetes Application Developer Certification
             </li>
+           <li>
+              <span class="fa-li">
+                <i class="fas fa-trophy text-warning"></i>
+              </span>
+              Certified Blockchain Solution Architect
+            </li>
           </ul>
         </div>
       </section>
@@ -383,37 +440,41 @@
 </template>
 
 <script>
-require("font-awesome/css/font-awesome.css");
+require('font-awesome/css/font-awesome.css');
+
 export default {
   data() {
     return {
-      title: "My portfolio"
+      title: 'My portfolio',
     };
   },
   mounted() {
     const $ = this.jquery;
     this.$nextTick(() => {
       // our custom jQuery code goes here
-      "use strict"; // Start of use strict
+
+
+      // Start of use strict
 
       // Smooth scrolling using jQuery easing
-      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+      // eslint-disable-next-line consistent-return
+      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
-          location.pathname.replace(/^\//, "") ==
-            this.pathname.replace(/^\//, "") &&
-          location.hostname == this.hostname
+          location.pathname.replace(/^\//, '') ===
+            this.pathname.replace(/^\//, '') &&
+          location.hostname === this.hostname
         ) {
-          var target = $(this.hash);
+          let target = $(this.hash);
           target = target.length
             ? target
-            : $("[name=" + this.hash.slice(1) + "]");
+            : $(`[name=${this.hash.slice(1)}]`);
           if (target.length) {
-            $("html, body").animate(
+            $('html, body').animate(
               {
-                scrollTop: target.offset().top
+                scrollTop: target.offset().top,
               },
               1000,
-              "easeInOutExpo"
+              'easeInOutExpo',
             );
             return false;
           }
@@ -421,16 +482,16 @@ export default {
       });
 
       // Closes responsive menu when a scroll trigger link is clicked
-      $(".js-scroll-trigger").click(function() {
-        $(".navbar-collapse").collapse("hide");
+      $('.js-scroll-trigger').click(() => {
+        $('.navbar-collapse').collapse('hide');
       });
 
       // Activate scrollspy to add active class to navbar items on scroll
-      $("body").scrollspy({
-        target: "#sideNav"
+      $('body').scrollspy({
+        target: '#sideNav',
       });
     });
-  }
+  },
 };
 </script>
 

@@ -23,6 +23,6 @@ git add -A
 git commit -m 'deploy'
 
 # deploy
-git push -f https://github.com/mikexd91/mikexd91.github.io.git gh-pages
+git push -f -u https://github.com/mikexd91/mikexd91.github.io.git master:gh-pages 
 
 cd -
