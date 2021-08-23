@@ -73,9 +73,9 @@
             <a href="mailto:mike.xunda@gmail.com">mikexd.dev@gmail.com</a>
           </div>
           <p class="lead mb-5">
-            Mike is a full stack software engineer and has developed multiple E2E full-stack solutions across industries on a global scale. He was also involved in various prototyping and MVP project development. He has experience in project management conducted in an agile practice and is always looking to expand his technical knowledge.
-            <br/> <br/>
-            Currently a certified AWS Certified Solution Architect and Google Cloud Professional Solution Architect as well as certified Kubernetes Application Developer (CKAD). He has also taken on an interest in blockchain technology and is a Certified Blockchain Solution Architect (CBSA)
+            Mike is a Digital Solution Architect Specialist and has architect and developed multiple E2E full-stack solutions across industries on a global scale. He was also involved in various prototyping and MVP project development that yield significant product demand. He also has experience in project management conducted in an agile practice and is always looking to expand his technical knowledge. <br/> <br/>
+            Currently a certified AWS Certified Solution Architect and Google Cloud Professional Solution Architect as well as certified Kubernetes Application Developer (CKAD). He has also taken on an interest in blockchain technology and is a Certified Blockchain Solution Architect (CBSA) <br/>
+            He is certifying himself in terraform and azure cloud development, to expand his breadth of multiple cloud providers.
           </p>
           <div class="social-icons">
             <a
